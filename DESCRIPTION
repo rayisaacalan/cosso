@@ -3,9 +3,14 @@ Version: 2.1-2
 Date: 2023-03-07
 Title: Fit Regularized Nonparametric Regression Models Using COSSO
         Penalty
-Author: Hao Helen Zhang <hzhang@math.arizona.edu> and Chen-Yen Lin
-        <clin5@ncsu.edu>
-Maintainer: Isaac Ray <null@stat.tamu.edu>
+Authors@R: c(
+    person("Hao Helen", "Zhang", email = "hzhang@math.arizona.edu",
+            role = c("aut", "cph")),
+    person("Chen-Yen", "Lin", email = "clin5@ncsu.edu",
+            role = c("aut", "cph")),
+    person("Isaac", "Ray", email = "null@stat.tamu.edu",
+            role = c("cre", "ctb"))
+  )
 Description: The COSSO regularization method automatically
         estimates and selects important function components by a
         soft-thresholding penalty in the context of smoothing spline
